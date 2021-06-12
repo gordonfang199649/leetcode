@@ -43,7 +43,7 @@ Follow up: Can you solve it in O(n) time and O(1) space?
  */
 class Solution {
     public boolean backspaceCompare(String s, String t) {
-        return removeBackSpaces(s).removeBackSpaces(helper(t));
+        return removeBackSpaces(s).removeBackSpaces(t);
     }
     
     private String removeBackSpaces(String str){
