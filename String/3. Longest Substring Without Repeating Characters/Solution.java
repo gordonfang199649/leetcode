@@ -3,22 +3,30 @@ Runtime: 4 ms, faster than 87.25% of Java online submissions for Longest Substri
 Memory Usage: 39.1 MB, less than 59.66% of Java online submissions for Longest Substring Without Repeating Characters.
 problem solver: gordon fang
 
+Given a string s, find the length of the longest substring without repeating characters.
 
-Task description
-Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+ 
 
 Example 1:
 
-Input: "Hello"
-Output: "hello"
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
 Example 2:
 
-Input: "here"
-Output: "here"
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
 Example 3:
 
-Input: "LOVELY"
-Output: "lovely"
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+Example 4:
+
+Input: s = ""
+Output: 0
 */
 import java.lang.Math;
 import java.util.Set;
